@@ -46,7 +46,6 @@ ul li::before {
     color: #3498db;
 }
 
-/* Link styling */
 a {
     display: inline-block;
     background-color: #3498db;
@@ -88,6 +87,49 @@ footer {
     background-color: #ecf0f1;
     padding: 20px;
     border-left: 4px solid #3498db;
+}
+
+.git {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.git h2 {
+    color: #3498db;
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+.git h3 {
+    color: #2c3e50;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.git pre {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 10px 0;
+}
+
+.git p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 10px 0;
+    color: #34495e;
+}
+
+.git pre code {
+    font-family: 'Courier New', monospace;
 }
 
 @media screen and (max-width: 768px) {
