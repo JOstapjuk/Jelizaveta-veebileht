@@ -46,7 +46,6 @@ ul li::before {
     color: #3498db;
 }
 
-
 a {
     display: inline-block;
     background-color: #3498db;
@@ -132,7 +131,6 @@ footer {
 .git pre code {
     font-family: 'Courier New', monospace;
 }
-
 
 @media screen and (max-width: 768px) {
     h1 {
